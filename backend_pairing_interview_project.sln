@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend_pairing_interview_project", "backend_pairing_interview_project\backend_pairing_interview_project.csproj", "{BAEFEBF0-B98F-4E40-B6A3-ED3DDC8B8D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend_pairing_interview_project.Tests", "backend_pairing_interview_project.Tests\backend_pairing_interview_project.Tests.csproj", "{B9195817-EC75-463B-8FCB-6DEDEE1A4507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAEFEBF0-B98F-4E40-B6A3-ED3DDC8B8D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEFEBF0-B98F-4E40-B6A3-ED3DDC8B8D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEFEBF0-B98F-4E40-B6A3-ED3DDC8B8D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEFEBF0-B98F-4E40-B6A3-ED3DDC8B8D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9195817-EC75-463B-8FCB-6DEDEE1A4507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9195817-EC75-463B-8FCB-6DEDEE1A4507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9195817-EC75-463B-8FCB-6DEDEE1A4507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9195817-EC75-463B-8FCB-6DEDEE1A4507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {530A7746-408B-4187-B14A-FC1C9807B895}
+	EndGlobalSection
+EndGlobal
