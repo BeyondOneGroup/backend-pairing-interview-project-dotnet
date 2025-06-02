@@ -25,8 +25,7 @@ namespace backend_pairing_interview_project
 
             container.RegisterType<ItemAvailabilityManager>(new ContainerControlledLifetimeManager());           
 
-            container.RegisterType<ItemsService>();
-            container.RegisterType<ItemsManagementController>();
+            container.RegisterType<ItemsService>(new ContainerControlledLifetimeManager());
 
             container.RegisterType<IApplicationEventPublisher, ApplicationEventPublisher>
                 (new ContainerControlledLifetimeManager());

@@ -7,9 +7,9 @@ namespace backend_pairing_interview_project.catalog
     public class ItemAvailabilityManager
     {
         private const int MinItemQuantityThreshold = 5;
-        private readonly IDictionary<string, int> _itemQuantities;
+        private readonly Dictionary<string, int> _itemQuantities;
 
-        public ItemAvailabilityManager(IDictionary<string, int> itemQuantities)
+        public ItemAvailabilityManager(Dictionary<string, int> itemQuantities)
         {
             _itemQuantities = itemQuantities ?? new Dictionary<string, int>();
         }
