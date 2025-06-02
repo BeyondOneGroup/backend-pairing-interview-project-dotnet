@@ -5,9 +5,9 @@ namespace backend_pairing_interview_project.catalog
 {
     public class ItemStore
     {
-        private readonly IDictionary<string, Item> _items;
+        private readonly Dictionary<string, Item> _items;
 
-        public ItemStore(IDictionary<string, Item> items)
+        public ItemStore(Dictionary<string, Item> items)
         {
             _items = items ?? new Dictionary<string, Item>();
         }

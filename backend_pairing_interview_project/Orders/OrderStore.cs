@@ -5,9 +5,9 @@ namespace backend_pairing_interview_project.Orders
 {
     public class OrderStore
     {
-        private readonly IDictionary<string, Order> _store;
+        private readonly Dictionary<string, Order> _store;
 
-        public OrderStore(IDictionary<string, Order> store)
+        public OrderStore(Dictionary<string, Order> store)
         {
             _store = store ?? new Dictionary<string, Order>();
         }
